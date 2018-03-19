@@ -5,5 +5,29 @@ USing static constants for constants in a file. Using screaming caps for constan
 Avoid using abbreviations
 no need to use underscore in variable identifiers. prefer camelCase
 organising packages
+*****************
+Error Handling
+*****************
+failing scenarios for date example
+>> type mismatch
+>> Off by one errors. eg: checking for n+1th element in an array
+>> IO error
+>> connectivity errors
+>> input error from user
+>> catch exceptions instead of returning just the error codes
+>> try to implememnt the happy path without 
+   any clutters in a separate function and catch the exceptions in the caller. helps to some extent
+>> use scenario specific exception ef: fileLoadException, IOException
 
 
+********************
+Debug.Assert Vs Exceptions
+********************
+>> DAS is used to mark an untestable code / an impossible scenario
+   IT terminates a pgm in the given manner
+>> Excp - marks erroneous plausible situation
+>> 
+
+******************
+Refactoring
+******************
