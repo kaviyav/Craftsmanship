@@ -1,0 +1,9 @@
+class names should be a verb
+function names can be noun
+camelCasing for function names  especially in Java
+USing static constants for constants in a file. Using screaming caps for constants.
+Avoid using abbreviations
+no need to use underscore in variable identifiers. prefer camelCase
+organising packages
+
+
